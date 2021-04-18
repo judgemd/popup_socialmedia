@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: #287ae7;
+}
+
+.pop-up {
+    width: 500px;
+    height: 390px;
+    background-color: #eaf2fd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -195px;
+    -webkit-box-shadow: 1px 1px 18px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    1px 1px 18px 0px rgba(50, 50, 50, 1);
+    box-shadow:         1px 1px 18px 0px rgba(50, 50, 50, 1);
+}
+
+#top {
+    font-size: 25px;
+    color: #152766;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.pop-up ul {
+    display: block;
+}
+
+.social li {
+    position: relative;
+    left: 35px;
+    padding: 25px 25px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.social li img {
+    position: relative;
+    top: 8px;
+}
+
+.link {
+    position: relative;
+    top: 80px;
+    left: 35px;
+}
+
+span {
+    font-weight: bold;
+    color: #152766;
+    font-size: 15px;
+}
+
+.link input {
+    border: none;
+    width: 425px;
+    height: 50px;
+    background-color: #ffffff;
+    color: #152766;
+    font-size: 20px;
+}
+.link img {
+    position: relative;
+    bottom: -40px;
+    left: -160px;
+}
+
+#bottom {
+    position: relative;
+    top: 110px;
+    left: 200px;
+    font-size: 15px;
+    color: #152766;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#cancel {
+    position: relative;
+    top: -220px;
+    left: 460px;
+    cursor: pointer;
+}
